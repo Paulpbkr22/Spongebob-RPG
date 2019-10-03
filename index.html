@@ -1,0 +1,141 @@
+  
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Spongebob Game</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body style= "background-image: url('https://i.pinimg.com/originals/8e/de/1d/8ede1dd0e3683e256b30b5216b11bfc5.jpg'); 
+background-repeat: no-repeat;
+background-size: 1980px 960px;">
+	<div class="header">
+		<h1>Spongebob Game</h1>
+    </div>
+
+
+
+    <!-- The Select Player Screen  -->
+    <div id = "firstScreen" class = "containter-fluid animated zoomIn bountOut">
+        <img class = "img-fluid" src = "#" alt = "spongebob-logo" />
+        <br>
+        <br>
+        <h1>Choose your Character</h1>
+        <br>
+        <div id = "game" class = "ctr container card-deck">
+        </div>
+    </div>
+
+    <!-- The Main Game Screen   -->
+
+
+    <div id = "secondScreen" class = "bg-trans container-fluid animated slideInDown">
+        <div class="row">
+            <div class="col-12 ctr">
+                Enemies remaining:
+                <div id = "defendersLeftDiv"></div>
+            </div>
+        </div>
+        <div class="row text-center paddingTop">
+            <div class="col-5">
+                Player:
+                <div class="container" style = "width: 30%;">
+                <div id = "playerDiv"></div>
+                <div id = "playerHealthDiv"></div>
+                </div>
+            </div>
+            <div class="col-2 paddingTop">
+                <!-- VS -->
+                <img src = "#" alt = "VS" width = "100" />
+            </div>
+            <div class="col-5">
+                Enemy:
+                <div class="container">
+                    <div id = "defenderDiv"></div>
+                    <div id = "defenderHealthDiv"></div>
+                </div>
+            </div>
+        </div>
+
+        
+        <!-- Holds the Button -->
+        <div class="row">
+            <div class="col-12 btn">
+                <div id = "msg"></div>
+                <br>
+                <button type = "button" name = "attack" id = "attackBtn" class = "btn btn-dark btn-lg">Attack!</button>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div id = "globalMsg" class = "animated fadeInUp">
+            <p class = "shadow">
+                Congratulations! 
+                <br>
+                You won homie!
+            </p>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    <!-- <div class="list">
+      
+                <ul id = "space" class = "list-group">
+                    <li>Yo pick a character</li>
+                    <li>Then pick an enemy</li>
+                    <li>You fight them boi</li>
+
+                </ul>
+    </div>
+   
+    <a href = "#" class = "text">Larry</a>
+        <img src="Assets/images/larry.jpg" class=charImage id="larry" alt="Larry">
+   
+    <a href = "#" class = "text">Mr. Krabs</a>
+        <img src="Assets/images/krabs.jpg" class=charImage id="krabs" alt="Krabs">
+
+    <a href = "#" class = "text">Patrick</a>
+        <img src="Assets/images/patrick.jpg" class=charImage id="patrick" alt="Patrick">
+     
+    <a href = "#" class = "text">My Leg!</a>
+        <img src="Assets/images/myleg.jpg" class=charImage id="myleg" alt="Myleg">
+ 
+    <a href = "#" class = "text">Spongebob</a>
+        <img src="Assets/images/spongebob.jpg" class=charImage id="spongebob" alt="Spongebob">
+
+
+ 	<div class="winsAndLosses">
+            <h2>Wins:
+                <span id= "numberWins"></span>
+                </br>
+                Losses: 
+                <span id= "numberLosses"></span>
+            </h2>
+            
+        </div> -->
+    
+
+
+
+
+    <!-- <br>
+    <div class="button"> 
+            <button class = "btn btn-primary btn- attack-button" id = "attack">
+                Attack
+            </button>
+        </div> -->
+	
+    
+
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
+	<script type="text/javascript" src="Assets/javascript/game2.js"></script>
+</body>
+</html>
