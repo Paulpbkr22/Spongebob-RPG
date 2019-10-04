@@ -11,15 +11,16 @@ body {
 }
 
 .shadow {
-    text-shadow: 2px 1px 4px rgb(0, 0, 0);
+    text-shadow: 2px 1px 4px rgb(141, 20, 20);
 }
+
 
 #firstScreen {
     min-height: 100%;
     position: absolute;
     text-align: center;
     padding-top: 5%;
-    color: rgb(90, 90, 90);
+    color: rgb(82, 9, 82);
 }
 
 .ctr {

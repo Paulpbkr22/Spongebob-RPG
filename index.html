@@ -3,26 +3,27 @@
 <html lang="en">
 
 <head>
-	<meta charset="UTF-8">
-	<title>Spongebob Game</title>
-	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <title>Spongebob Game</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+
+    <!-- CSS -->
+	<link rel="stylesheet" type="text/css" href="Assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="Assets/css/style.css">
+    <link rel="stylesheet" href="Assets/css/animate.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
 </head>
-<body style= "background-image: url('https://i.pinimg.com/originals/8e/de/1d/8ede1dd0e3683e256b30b5216b11bfc5.jpg'); 
-background-repeat: no-repeat;
-background-size: 1980px 960px;">
-	<div class="header">
-		<h1>Spongebob Game</h1>
-    </div>
-
-
+<body>
 
     <!-- The Select Player Screen  -->
-    <div id = "firstScreen" class = "containter-fluid animated zoomIn bountOut">
-        <img class = "img-fluid" src = "#" alt = "spongebob-logo" />
+    <div id = "firstScreen" class = "container-fluid animated zoomIn bounceOut">
+        <img class = "img-fluid" src = "Assets/images/logo.jpg" alt = "spongebob-logo" />
         <br>
         <br>
-        <h1>Choose your Character</h1>
+        <h1>Choose your Character:</h1>
         <br>
         <div id = "game" class = "ctr container card-deck">
         </div>
@@ -48,7 +49,7 @@ background-size: 1980px 960px;">
             </div>
             <div class="col-2 paddingTop">
                 <!-- VS -->
-                <img src = "#" alt = "VS" width = "100" />
+                <img src = "./Assets/images/vs.jpg" alt = "VS" width = "100" />
             </div>
             <div class="col-5">
                 Enemy:
@@ -78,7 +79,9 @@ background-size: 1980px 960px;">
             </p>
         </div>
     </div>
-
+    <footer>
+        Created by Paul Baker
+    </footer>
 
 
 
@@ -133,9 +136,14 @@ background-size: 1980px 960px;">
             </button>
         </div> -->
 	
-    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js " integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN "
+        crossorigin="anonymous "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js " integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q "
+        crossorigin="anonymous "></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js " integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl "
+        crossorigin="anonymous "></script>
 
 	<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
-	<script type="text/javascript" src="Assets/javascript/game2.js"></script>
+	<script type="text/javascript" src="Assets/javascript/game.js"></script>
 </body>
 </html>
